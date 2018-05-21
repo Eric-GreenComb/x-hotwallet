@@ -1,0 +1,134 @@
+.withdraw-container{
+  font-size: 0.28rem;
+  color: #2f2f2f;
+}
+.row{
+  padding:0 0.29rem;
+}
+.ti{
+  padding:0.34rem 0.29rem;
+}
+.bgf{
+  background: #fff;
+}
+.money{
+  font-size: 0.4rem;
+  padding-bottom:0.3rem;
+  border-bottom:1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.sign{
+  margin-right:0.42rem;
+  font-weight: bold;
+}
+.money-input{
+  font-size: 0.4rem;
+  width:85%;
+  padding:0.1rem 0;
+}
+.ti{
+  justify-content: space-between;
+  font-size: 0.24rem;
+  color: #898989;
+}
+.ti1{
+  border-bottom:0.14rem solid #eee;
+}
+.blue-text{
+  color: #247edb;
+}
+.disn{
+  display: none;
+}
+.type-div{
+  padding-top:0.41rem;
+  padding-bottom:0.41rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-iconfontxuanzhong,.icon-weixuanzhong-01{
+  margin-right:0.22rem;
+  font-size:0.34rem;
+}
+.tip-p{
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  padding-bottom:0.59rem;
+  padding-top:0.34rem;
+}
+.span-block {
+  display: inline-block;
+/*  width: 2.40rem;
+  height: 0.34rem;
+  line-height: 0.34rem;*/
+  padding:0.04rem 0.1rem;
+  text-align: center;
+  background-color: #eef2fe;
+  border-radius: 16px;
+  margin-left: 0.74rem;
+  color: #5b79fb;
+  font-size: 0.20rem;
+}
+.choose-bank-p{
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.31rem;
+  padding-top: 0.31rem;
+  font-size: 0.28rem;
+  color: #2f2f2f;
+}
+.icon-youjiantou{
+  color:#898989;
+  font-size:0.26rem;
+}
+.withdraw-btn {
+  display: block;
+  margin:0.85rem auto 0 auto;
+  width: 6.90rem;
+  height: 0.80rem;
+  background-color: #bfbfbf;
+  border-radius: 4px;
+  font-size: 0.30rem;
+  color: #ffffff;
+  border:0;
+}
+.record{
+  font-size: 0.24rem;
+  color: #5b79fb;
+  text-align: center;
+  margin:1.2rem 0 0.5rem 0;
+}
+.notice{
+  font-size: 0.24rem;
+  color: #898989;
+  text-align: right;
+  margin-top:0.3rem;
+}
+.bank-pic{
+  width:0.5rem;
+  height:0.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.bank-name{
+  font-size:0.26rem;
+  color: #2f2f2f;
+}
+input[type='text']{
+  color: #2f2f2f;
+}
+input[type='number']{
+  border: 0;
+  color: #2f2f2f;
+
+}
+.commit-btn{
+  background:#b81f23;
+  color:#fff;
+}
+.warn{
+  color:#b81f23;
+}

@@ -1,0 +1,307 @@
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0
+}
+
+/*html,body{
+  height:auto;
+}*/
+
+fieldset, img {
+  border: 0
+}
+
+img {
+  display: block
+}
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal
+}
+
+ul, ol {
+  list-style: none
+}
+
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'PingFang-SC-Regular';
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+select, input {
+  vertical-align: middle
+}
+
+select, input, textarea {
+  font-size: 12px;
+  margin: 0
+}
+
+input[type="text"], input[type="password"], textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+  border: 0;
+  font-family: 'PingFang-SC-Regular';
+}
+
+textarea {
+  resize: none
+}
+
+table {
+  border-collapse: collapse
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: 'PingFang-SC-Regular';
+}
+
+#app {
+  min-height: 100%;
+  background: #fff;
+}
+
+/*container公用样式*/
+.con {
+  padding-top: 1rem;
+  /*margin-top:1rem;*/
+}
+
+.container {
+  min-height: 100%;
+  /*padding-bottom:0.75rem;*/
+  overflow-x: hidden;
+}
+
+.bg-container {
+  background: #eee;
+}
+
+.disf {
+  display: flex;
+}
+
+.disb {
+  display: block;
+}
+
+.disn {
+  display: none;
+}
+
+.alic {
+  align-items: center;
+}
+
+.texac {
+  text-align: center;
+}
+
+.common-pt {
+  padding-bottom: 1.2rem;
+}
+
+.nomore {
+  margin-top: 3.5rem;
+  font-size: 0.26rem;
+  color: #898989;
+}
+
+.bgf {
+  background: #fff;
+}
+
+.disb {
+  display: inline-block;
+}
+
+/*加载动画公用样式*/
+#loading-div {
+  width: 1.7rem;
+  height: 1.7rem;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+
+}
+
+#loading {
+  width: 35%;
+}
+
+#loading-now {
+  font-size: 0.12rem;
+  margin-top: 0.2rem;
+}
+
+/*.nav{
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: #2f2f2f;
+  padding:0.28rem 0;
+  text-align: center;
+}*/
+
+/*数字加减公用样式*/
+.count-div {
+  line-height: 0.52rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.26rem;
+  border-collapse: collapse;
+}
+
+.common-add, .common-discount {
+  text-align: center;
+  width: 0.76rem;
+  height: 0.52rem;
+  border-radius: 0.04rem 0px 0px 0.04rem;
+  border: solid 1px #b4b4b4;
+}
+
+.common-disabled {
+  border: solid 1px #dcdcdc;
+  color: #dcdcdc;
+}
+
+.common-num {
+  text-align: center;
+  width: 1.09rem;
+  height: 0.52rem;
+  border: solid 1px #b4b4b4;
+}
+
+/*遮罩层公用样式 */
+.common-cover {
+  background-color: rgba(47, 47, 47, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.common-zhao {
+  flex: 1;
+}
+
+.common-cover-content-container {
+  background: #fff;
+}
+
+/*上拉加载更多*/
+.loading-more-gif {
+  margin: auto;
+  width: 0.4rem;
+}
+
+.loader-more-div {
+  text-align: center;
+  font-size: 0.24rem;
+  margin: 0.2rem;
+  z-index: 100;
+  padding: 0.2rem 0 0.4rem 0;
+}
+
+.loading-word {
+  margin: 0.2rem 0;
+}
+
+/*滑动导航公用样式*/
+#common-scroll-nav {
+  overflow-x: scroll;
+  width: 100%;
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  background: #fff;
+  z-index: 100;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+
+.common-list-ul {
+  height: 100%;
+  padding: 0 0.1rem;
+  line-height: 0.8rem;
+}
+
+.common-list {
+  height: 100%;
+  margin: 0 0.2rem;
+  padding: 0.15rem 0.2rem 0 0.2rem;
+  font-size: 0.28rem;
+  line-height: 24px;
+  color: #2f2f2f;
+  white-space: nowrap;
+}
+
+.common-list.common-active {
+  color: #B81F22;
+  border-bottom: 3px solid #B81F22;
+}
+
+/*选中的label*/
+.icon-iconfontxuanzhong {
+  color: #B81F22;
+}
+
+/*
+.yd-navbar-center-title {
+font-weight: bold;
+}
+*/
+
+.navbar-bottom-line-color:after {
+  border-color: #fff !important;
+}
+
+/*分享遮罩提醒*/
+.sell-cover {
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.click-share {
+  position: absolute;
+  top: 0;
+  right: 0.45rem;
+  width: 50%;
+}
+
+.ql-editor {
+  padding: 0.29rem 0.29rem 0 0.29rem;
+  line-height: 1.8;
+}

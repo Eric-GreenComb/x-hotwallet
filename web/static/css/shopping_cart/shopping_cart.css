@@ -1,0 +1,240 @@
+.navbar-bottom-line-color:after {
+  border-color: #e5e5e5 !important;
+}
+
+.shopping-container {
+  padding-bottom: 1.75rem;
+  background: #eee;
+}
+
+.i-span {
+  padding-top: 0.63rem;
+  width: 0.6rem;
+}
+
+.icon-weixuanzhong-01, .icon-iconfontxuanzhong {
+  font-size: 0.35rem;
+}
+
+.disn {
+  display: none;
+}
+
+.goods {
+  margin:0 0.2rem;
+}
+
+.goods-pic {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.goods-msg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.goods-list {
+  padding: 0.36rem 0.3rem 0.5rem 0.28rem;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+.goods-name {
+  font-size: 0.3rem;
+  font-weight: 500;
+  color: #2f2f2f;
+  line-height: 1.5;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+// eslint-disable-next-line
+  /* autoprefixer: off */
+-webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  white-space: normal;
+  -webkit-line-clamp: 2;
+
+}
+
+.goods-size {
+  font-size: 0.26rem;
+  color: #a4a4a4;
+  margin: 0.15rem 0;
+}
+
+.goods-price {
+  flex: 1;
+  font-size: 0.26rem;
+  color: #B81F22;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.word {
+  font-size: 0.22rem;
+}
+
+.right {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.icon-shanchu {
+  margin-left: 0.43rem;
+  font-size: 0.4rem;
+  color: #a4a4a4;
+}
+
+.total {
+  width: 100%;
+  position: fixed;
+  bottom: 0rem;
+  height: 1rem;
+  line-height: 1rem;
+  justify-content: space-between;
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  background: #fff;
+}
+
+.hj-btn {
+  padding-left: 0.28rem;
+  flex-direction: column;
+  justify-content: center;
+  line-height: normal;
+}
+
+.lr {
+  font-size: 0.24rem;
+  color: #898989;
+}
+
+.money {
+  font-size: 0.28rem;
+  color: #B81F22;
+}
+
+.pay {
+  display: inline;
+  width: 2.6rem;
+  height: 100%;
+  background: #B81F22;
+  color: #fff;
+  font-size: 0.3rem;
+  text-align: center;
+}
+
+.common-discount {
+  width: 0.53rem;
+  height: 0.52rem;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid #898989;
+}
+
+.common-num {
+  width: 0.76rem;
+  height: 0.52rem;
+  border: solid 1px #898989;
+}
+
+.common-add {
+  width: 0.53rem;
+  height: 0.52rem;
+  border-radius: 0px 4px 4px 0px;
+  border: 1px solid #898989;
+}
+
+.common-disabled {
+  border: 1px solid #dcdcdc;
+}
+
+.count-div {
+  border-collapse: collapse;
+}
+
+
+.sxp{
+  justify-content: space-between;
+  font-size: 0.28rem;
+  color: #2f2f2f;
+}
+.red-text{
+  color: #b81f23;
+}
+.timeout-goods-ul{
+  background: #fff;
+}
+.sxp{
+  padding:0.3rem 0.3rem;
+  border-bottom: 1px solid #eee;
+}
+.out-good-name{
+  font-size: 0.28rem;
+  color: #898989;
+}
+.goods-tip{
+  font-size: 0.26rem;
+  color: #2f2f2f;
+  margin-top: 0.59rem;
+}
+.text-span{
+  display: inline-block;
+  background-color: #b5b5b5;
+  border-radius: 2px;
+  width: 0.60rem;
+  height: 0.28rem;
+  line-height: 0.35rem;
+  text-align: center;
+  font-size: 0.20rem;
+  color: #ffffff;
+}
+.span-div{
+  align-items: center;
+}
+.no-list-div{
+  position:absolute;
+/*  top:3rem;
+  width:100%;
+  left:0;*/
+}
+.no-list-pic{
+  width: 80%;
+  margin: 35% auto 0 auto;
+}
+.no-text{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 80.5%;
+  left: 0;
+  color: #8D8E90;
+}
+.integral-span{
+  display: inline-block;
+  background-color: #f27878;
+  border-radius: 2px;
+  font-size: 0.20rem;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 0.1rem;
+/*  margin-bottom: 0.1rem;*/
+  padding:0.05rem 0.12rem;
+  vertical-align: middle;
+  line-height: normal;
+
+}
+.integral-div{
+  display: inline-block;
+}
+.nouse_price{
+  color:#898989;
+  font-size: 0.22rem;
+  text-decoration: line-through;
+}
+
+.shopcart-list{
+  border-bottom:0.14rem solid #eee;
+}

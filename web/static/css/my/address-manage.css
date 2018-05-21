@@ -1,0 +1,65 @@
+.address-manage-container {
+  background-color: #eeeeee;
+  padding-bottom: 0.9rem;
+}
+
+.address-li {
+  padding: 0.3rem 0;
+  background: #fff;
+  margin-bottom: 0.14rem;
+}
+
+.row {
+  padding: 0 0.3rem;
+  color: #2f2f2f;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.name, .mobile {
+  font-size: 0.28rem;
+}
+
+.address-msg {
+  font-size: 0.24rem;
+  padding-top: 0.21rem;
+  padding-bottom: 0.36rem;
+}
+
+.default-text, .edit-delete {
+  font-size: 0.24rem;
+}
+
+.mar {
+  border-top: 1px solid #eee;
+  padding-top: 0.3rem;
+}
+
+.iconfont {
+  font-size: 0.38rem;
+}
+
+.icon-iconfontxuanzhong, .icon-weixuanzhong-01 {
+  margin-right: 0.18rem;
+}
+
+.icon-bianji, .icon-shanchu {
+  margin-right: 0.08rem;
+}
+
+.icon-shanchu {
+  margin-left: 0.5rem;
+}
+
+.new-btn {
+  width: 100%;
+  height: 0.9rem;
+  background-color: #b81f23;
+  text-align: center;
+  line-height: 0.9rem;
+  color: #fff;
+  font-size: 0.3rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

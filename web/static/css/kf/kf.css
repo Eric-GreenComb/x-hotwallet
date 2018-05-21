@@ -1,0 +1,224 @@
+
+.kf-container {
+  background-color: #eee;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.bot {
+  padding: 0 0.26rem;
+  width: 100%;
+  height: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.iconfont{
+  font-size:0.4rem;
+}
+
+.icon-sousuo {
+  margin: 0 0.17rem 0 0.32rem;
+}
+
+.input-box {
+  width: 75%;
+  height: 0.6rem;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  align-items: center;
+  padding: 0.15rem 0.2rem;
+  color: #a4a4a4;
+}
+
+.sousuo-input {
+  width: 80%;
+  font-size: 0.28rem;
+}
+
+.icon-zhuanrengong {
+  font-size: 0.35rem;
+}
+
+.icon-tianjia {
+  font-size: 0.45rem;
+}
+
+.xiaoxi {
+  font-size: 0.18rem;
+  color: #2f2f2f;
+}
+
+.right-xiaoxi {
+  text-align: center;
+}
+
+.content {
+  padding:0.3rem;
+}
+
+.chat-lit {
+  padding: 0.25rem 0.3rem;
+}
+
+.header {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-image: url("../../img/connect/kf.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.chat {
+  width: 5.31rem;
+  background: #fff;
+  position: relative;
+  font-size: 0.3rem;
+  color: #2f2f2f;
+  margin-left: 0.27rem;
+  padding: 0.32rem 0 0 0;
+  line-height: 0.4rem;
+  text-align: justify;
+}
+
+.chat:after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid #FFF;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  left: -0.3rem;
+  top: 0.1rem;
+}
+
+.disc {
+  display: inline-block;
+  width: 0.14rem;
+  height: 0.14rem;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+  margin-right: 0.1rem;
+}
+
+.want-ul {
+  font-size: 0.28rem;
+  line-height: 24px;
+  color: #247edb;
+}
+
+.tp {
+  padding: 0.2rem 0.39rem;
+}
+
+.want-li {
+  /*margin:0.4rem 0;*/
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.39rem;
+}
+
+.bor {
+  border-bottom: 1px solid #eeeeee;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+.kf-box1{
+  padding:0rem 0.33rem 0rem;
+  background: #fff;
+}
+
+.kf-box2{
+  padding:0rem 0.33rem 0rem;
+  background: #fff;
+  margin-top:0.14rem;
+}
+
+.kf-title{
+  font-size:0.28rem;
+  padding:0.36rem 0;
+}
+
+.kf-ul1{
+  padding:0.14rem 0 0.45rem;
+  overflow: hidden;
+}
+
+.kf-ul2{
+  border-top:1px solid #eee;
+  padding-top:0.37rem;
+  font-size:0.28rem;
+  overflow: hidden;
+}
+
+.kf-ul1 li{
+  float: left;
+  width:25%;
+  text-align: center;
+}
+
+.kf-ul1 li span{
+  display: block;
+  font-size:0.23rem;
+  margin-top:0.15rem;
+}
+
+.kf-ul2 li{
+  padding-bottom:0.6rem;
+  width:50%;
+  float: left;
+  text-align: left;
+}
+
+ul li a{
+  display: inline-block;
+}
+
+.kf-ul2 li img{
+  width:0.54rem;
+  float: left;
+}
+
+.kf-ul2 li a{
+  overflow: hidden;
+}
+
+.kf-ul2 li span{
+  margin-left:0.15rem;
+  font-size:0.29rem;
+  float: left;
+  line-height:0.54rem;
+  height:0.54rem;
+}
+
+.connect_kf_list_ul{
+  background: #fff;
+  margin-top:0.14rem;
+  font-size:0.3rem;
+  padding-left:0.3rem;
+}
+
+.connect_kf_list_ul li{
+  padding:0.32rem 0;
+  border-bottom:1px solid #eee;
+  overflow: hidden;
+}
+
+.connect_kf_list_ul li p{
+  float: left;
+  width:90%;
+  line-height:1.3;
+  letter-spacing:.1em;
+}

@@ -1,0 +1,164 @@
+.my-quan-container {
+  background: #eee;
+  position: relative;
+}
+
+.ul {
+  padding: 0.19rem 1.17rem 0 1.17rem;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.type-li {
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  padding-bottom: 0.1rem;
+  padding-left: 0.1rem;
+}
+
+.active {
+  color: #b81f23;
+  border-bottom: 2px solid #b81f23;
+}
+
+.coupons-li {
+  /* padding: 0.3rem 0;*/
+  margin: 0.34rem 0.2rem;
+}
+
+.coupons {
+  width: 100%;
+}
+
+.coupon-div {
+  width: 100%;
+  position: relative;
+  margin-top: 0.24rem;
+}
+
+.red-block-text {
+  position: absolute;
+  left: 0.49rem;
+  top: 0.4rem;
+}
+
+.value {
+  font-size: 0.70rem;
+  color: #ffffff;
+  margin-bottom: 0.09rem;
+}
+
+.sign {
+  font-size: 0.30rem;
+  color: #ffffff;
+}
+
+.condition {
+  font-size: 0.20rem;
+  color: #ffffff;
+  padding-left: 0.15rem;
+}
+
+.white-block-text {
+  height: 100%;
+  position: absolute;
+  left: 2.57rem;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 0.26rem;
+  padding-bottom: 0.23rem;
+}
+
+.tit {
+  font-size: 0.28rem;
+  color: #2f2f2f;
+}
+
+.condition1 {
+  font-size: 0.22rem;
+  color: #898989;
+}
+
+.time {
+  font-size: 0.22rem;
+  color: #898989;
+}
+
+.icon-yishixiao {
+  position: absolute;
+  top: -0.2rem;
+  right: 0.1rem;
+  font-size: 1.4rem;
+  color: #d2d2d2;
+}
+
+.tip {
+  text-align: center;
+  font-size: 0.26rem;
+  color: #898989;
+  margin-top: 0.36rem;
+}
+
+.no-order-div {
+  width: 100%;
+  margin-top: 2rem;
+  position: relative;
+
+}
+
+.no-coupon-pic {
+  width: 100%;
+}
+
+.no-order-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 1.2rem;
+  left: 0;
+  font-size: 0.26rem;
+  color: #898989;
+}
+
+.icon-erweima {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+  font-size: 0.6rem;
+  color: #2f2f2f;
+}
+
+.checkCodeCover {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.67);
+  text-align: center;
+}
+
+.code-icon {
+  font-size: 5rem;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.code-div {
+  width: 6rem;
+  height: 6rem;
+  margin: 30% auto 10% auto;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-guanbi1 {
+  color: #fff;
+  font-size: 0.7rem;
+}

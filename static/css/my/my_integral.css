@@ -1,0 +1,126 @@
+.container {
+  background: #eee;
+}
+
+.bg-top {
+  position: relative;
+}
+
+.bg-pic {
+  width: 100%;
+}
+
+.top-text {
+  width: 100%;
+  position: absolute;
+  top: 0.27rem;
+  left: 0;
+  padding-left: 0.32rem;
+  padding-right: 0.32rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.22rem;
+  color: #ffffff;
+}
+
+.icon-warning_icon {
+  margin-right: 0.12rem;
+  font-size: 0.2rem;
+}
+
+.integral-num {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 1.09rem;
+  left: 0;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+.title {
+  padding: 0.22rem 0.29rem;
+  justify-content: space-between;
+  font-size: 0.28rem;
+  background: #fff;
+  color: #2f2f2f;
+}
+
+.li {
+  padding: 0.19rem 0.29rem;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.desc-p {
+  justify-content: space-between;
+}
+
+.desc-title {
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  font-weight: bold;
+
+}
+
+.integral-num1 {
+  font-size: 0.28rem;
+  color: #b81f22;
+}
+
+.time {
+  font-size: 0.22rem;
+  color: #898989;
+  margin-top: 0.16rem;
+}
+.right-more{
+  font-size: 0.24rem;
+  color: #898989;
+}
+.icon-youjiantou{
+  font-size: 0.26rem;
+}
+.list-ul{
+  border-bottom: 0.14rem solid #eee;
+}
+.ti{
+  text-align: center;
+  padding:0.28rem 0;
+  background: #fff;
+  font-size: 0.26rem;
+  color: #898989;
+}
+.voucher-li{
+  align-items: center;
+  padding:0.23rem 0.28rem;
+  background: #fff;
+  font-size: 0.28rem;
+  color: #2f2f2f;
+
+}
+.pic{
+  width: 2.34rem;
+  height: 1.34rem;
+  display: inline-block;
+  margin-right: 0.41rem;
+}
+.button-div{
+  margin-top: 0.32rem;
+  font-size: 0.26rem;
+  color: #b81f22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn{
+  padding:0.05rem 0.1rem;
+  border:1px solid  #b81f22;
+  color: #b81f22;
+  border-radius: 2px;
+}
+.voucher-title{
+  font-weight: bold;
+}
+.right-div{
+  flex: 1;
+}

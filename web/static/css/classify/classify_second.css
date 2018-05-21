@@ -1,0 +1,147 @@
+.icon-sousuo {
+  color: #2f2f2f;
+}
+
+.common-list-ul {
+  height: 100%;
+   padding: 0 0;
+  line-height: 0.8rem;
+}
+.common-list {
+  height: 100%;
+  margin: 0 0.1rem;
+  padding: 0.15rem 0.15rem 0 0.15rem;
+  font-size: 0.28rem;
+  line-height: 24px;
+  color: #2f2f2f;
+  white-space: nowrap;
+}
+
+.classify-second-container {
+  padding-top: 0.8rem;
+}
+
+.bor {
+  height: 0.14rem;
+  background-color: #eeeeee;
+}
+
+#common-scroll-nav {
+  top: 0;
+}
+
+.goods-list {
+  padding: 0 0.27rem 0 0.27rem;
+}
+
+.goods-li {
+ /* padding: 0.25rem 0;*/
+ height:2.2rem;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.goods-pic {
+  width: 1.9rem;
+  height: 1.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goods-pic-class {
+  width: 100%;
+  height:100%;
+}
+
+.goods-msg {
+  height:100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+// eslint-disable-next-line
+  /* autoprefixer: off */
+-webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding:0.2rem 0 0.45rem 0.27rem
+ /* padding-bottom: 0.55rem;*/
+}
+
+.goods-name {
+  padding-top: 0.13rem;
+  font-size: 0.28rem;
+  line-height: 1.6;
+  color: #2f2f2f;
+  vertical-align: bottom;
+  margin-bottom: 0.1rem;
+}
+.goods-name1{
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  white-space: normal;
+  -webkit-line-clamp: 2;
+}
+
+.goods-pri {
+
+  display: flex;
+  align-items: center;
+  color: #b81f23;
+
+}
+
+.sign {
+  font-size: 0.24rem;
+}
+
+.goods-price {
+  font-size: 0.3rem;
+  letter-spacing: 0;
+
+}
+
+.sign1 {
+  font-size: 0.31rem;
+  color: #c3c3c3;
+}
+
+.profit {
+  font-size: 0.24rem;
+  color: #b81f23;
+}
+
+.profit-value {
+  font-size: 0.3rem;
+  color: #b81f23;
+}
+
+.integrate {
+  padding:0.04rem 0.12rem;
+  display: inline-block;
+  text-align: center;
+  background-color: #f27878;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 0.2rem;
+  margin-right: 0.15rem;
+  line-height: normal;
+ /* float: left;*/
+}
+/*.integrate::after{
+  content:'';
+  display: table;
+  clear: both;
+}*/

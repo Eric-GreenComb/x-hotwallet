@@ -1,0 +1,226 @@
+.order-create-container {
+  background: #eee;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.bgf {
+  background: #fff;
+}
+
+.msg-container {
+  position: relative;
+  border-bottom: 0.14rem solid #eee;
+}
+
+.right-icon {
+  position: absolute;
+  top: 40%;
+  right: 0.29rem;
+  color: #898989;
+  font-size: 0.28rem;
+}
+
+.msg {
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  padding: 0.3rem 0.3rem 0.3rem 0.59rem;
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-right: 0.2rem;
+}
+
+.default-btn {
+  display: inline-block;
+  padding: 0.02rem 0.12rem;
+  border-radius: 4px;
+  border: solid 1px #b81f23;
+  font-size: 0.20rem;
+  color: #b81f23;
+  margin-left: 0.24rem;
+}
+
+.address {
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  padding-left: 0.22rem;
+  padding-bottom: 0.23rem;
+}
+
+.icon-shouhuodizhi {
+  margin-right: 0.05rem;
+}
+
+.address-border {
+  width: 100%;
+}
+
+.good {
+  align-items: center;
+  background: #fff;
+  padding: 0.19rem 0.3rem 0.19rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.good-pic {
+  width: 1.60rem;
+  height: 1.60rem;
+  margin: 0 0.2rem;
+}
+
+.good-name {
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  margin-bottom: 0.17rem;
+}
+
+.size {
+  font-size: 0.24rem;
+  color: #898989;
+  justify-content: space-between;
+}
+
+.right-div {
+  flex: 1;
+  padding-left: 0.1rem;
+}
+
+.price {
+  font-size: 0.22rem;
+  color: #b81f23;
+  margin-top: 0.21rem;
+}
+
+.price-num {
+  font-size: 0.28rem;
+}
+
+.mark {
+  padding: 0.3rem;
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-bottom: 0.14rem solid #eee;
+}
+
+.mark-input {
+  padding-left: 0.15rem;
+  flex: 1;
+}
+
+.quan {
+  border-bottom: 0.14rem solid #eee;
+  padding: 0.3rem;
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-icon1 {
+  font-size: 0.26rem;
+  color: #898989;
+}
+
+.row {
+  padding: 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.28rem;
+  color: #2f2f2f;
+}
+
+.total-price {
+  color: #b81f23;
+}
+
+.post {
+  font-size: 0.26rem;
+  color: #898989;
+}
+.bottom-btn{
+  height:0.9rem;
+  align-items: center;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+}
+.submit-button{
+  width: 2.8rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  color:#fff;
+  text-align: center;
+  background-color: #b81f23;
+  font-size: 0.30rem;
+
+}
+.left-btn{
+  flex: 1;
+  background: #fff;
+  height: 100%;
+  padding-left:0.29rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.total-p{
+  font-size: 0.30rem;
+  color: #b81f23;
+}
+.post-p{
+  font-size: 0.22rem;
+  color: #898989;
+  margin-top: 0.11rem;
+}
+.nouse{
+  color: #898989;
+}
+input::input-placeholder {
+  font-size: 0.28rem;
+  color: #898989;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 0.28rem;
+  color: #898989;
+}
+
+input:-ms-input-placeholder {
+  font-size: 0.28rem;
+  color: #898989;
+}
+
+input:-moz-placeholder {
+  font-size: 0.28rem;
+  color: #898989;
+}
+
+input::-moz-placeholder {
+  font-size: 0.28rem;
+  color: #898989;
+}
+.pay_type{
+  border-top: 0.14rem solid #eee;
+  border-bottom: 0;
+}
+.icon-logo {
+  width: 0.35rem;
+  display: inline-block;
+  margin-right: 0.07rem;
+  vertical-align: bottom;
+}
+.icon-logo1{
+  vertical-align: middle;
+}
+.no-default-address{
+  padding:0.34rem 0.29rem;
+  color:#2f2f2f;
+  font-size: 0.28rem;
+}

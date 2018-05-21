@@ -1,0 +1,87 @@
+.new-address-container {
+  background: #eee;
+}
+
+.row {
+  padding: 0 0.3rem;
+  background: #fff;
+  align-items: center;
+}
+
+.new-box {
+  /*  margin-top: 0.14rem;*/
+  padding-top: 0.1rem;
+  background: #fff;
+}
+
+.label-span {
+  width: 18%;
+  padding: 0.34rem 0;
+  font-size: 0.28rem;
+  /* font-weight: bold;*/
+  color: #2f2f2f;
+  margin-right: 0.3rem;
+}
+
+.input {
+  padding: 0.35rem 0;
+  flex: 1;
+  font-size: 0.28rem;
+}
+
+.detail-address {
+  align-items: flex-start;
+}
+
+.set-default {
+  font-size: 0.28rem;
+  color: #2f2f2f;
+}
+
+.icon-weixuanzhong-01, .icon-iconfontxuanzhong {
+  margin-right: 0.17rem;
+  font-size: 0.4rem;
+  color: #2f2f2f;
+}
+
+.icon-iconfontxuanzhong {
+  color: #b81f23;
+}
+
+.defalut-p {
+
+  padding: 0.35rem 0.3rem;
+  text-align: center;
+  margin-top: 0.2rem;
+  align-items: center;
+}
+
+.navbar-bottom-line-color:after {
+  border-color: #fff !important;
+}
+
+.bottom-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.btn {
+  width: 50%;
+  height: 0.9rem;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.9rem;
+}
+
+.save-btn {
+  color: #fff;
+  background-color: #b81f23;
+
+}
+
+.cancel-btn {
+  background: #fff;
+  color: #2f2f2f;
+}

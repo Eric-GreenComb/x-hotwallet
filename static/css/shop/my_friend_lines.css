@@ -1,0 +1,119 @@
+.container {
+  background: #eee;
+}
+
+.bg {
+  width: 100%;
+}
+
+.top-bg {
+  position: relative;
+}
+
+.top-msg {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 0.86rem;
+}
+
+.header {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: solid 0.03rem #ffffff;
+  margin: auto;
+}
+
+.name {
+  font-size: 0.28rem;
+  color: #ffffff;
+  margin-top: 0.17rem;
+}
+
+.integral-div {
+  margin-top: 0.58rem;
+  color: #fff;
+  width: 100%;
+  padding: 0 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.24rem;
+}
+
+.integral-num {
+  font-size: 0.30rem;
+  margin-top: 0.22rem;
+  font-weight: bold;
+}
+
+.line {
+  width: 0.04rem;
+  height: 0.24rem;
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  padding: 0.21rem 0.3rem;
+  background-color: #eeeeee;
+}
+
+ul {
+  background: #fff;
+}
+
+.li {
+  padding: 0.18rem 0;
+  margin: 0 0.28rem;
+  background: #fff;
+  display: flex;
+  position: relative;
+}
+
+.li-header {
+  width: 0.80rem;
+  height: 0.80rem;
+  border-radius: 50%;
+  margin-right: 0.24rem;
+}
+
+.ti-p {
+  font-size: 0.28rem;
+  color: #2f2f2f;
+  margin-top: 0.1rem;
+  margin-bottom: 0.13rem;
+}
+
+.integral-p {
+  font-size: 0.22rem;
+  color: #898989;
+}
+.tag {
+  width: 0.74rem;
+  height: 0.26rem;
+  text-align: center;
+  line-height: 0.3rem;
+  font-size: 0.18rem;
+  color: #ffffff;
+  z-index: 2;
+  position: absolute;
+  background-blend-mode: normal,
+  normal;
+  border-radius: 2px;
+  left: 0;
+  bottom: 0.15rem;
+}
+.vip-tag{
+  background-image: linear-gradient(90deg,
+  #ffa131 0%,
+  #ff8c04 100%),
+  linear-gradient(
+    #2f2f2f,
+    #2f2f2f);
+}
+.no-vip{
+  background-color: #b5b5b5;
+}
