@@ -50,7 +50,7 @@
     methods: {
       scoreList(){
         let _this = this;
-        axios.get(config.score_list+'/'+this.page).then(function (res) {
+        axios.get(config.score_list+'//'+this.page).then(function (res) {
           if(res.data.errcode == 0){
             _this.data = res.data.msg;
           }
