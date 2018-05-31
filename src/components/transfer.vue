@@ -3,37 +3,35 @@
       <div class="header">
         <div class="userhead"><img src="../../static/userhead.jpg"></div>
         <div class="userinfor">
-          <p>{{ infor.userID }}({{ infor.name }})</p>
-          <p style="font-size:9px;">{{ fromAccount.address }}</p>
+          <p>{{ infor.userID }}</p>
+          <p>{{ infor.name }}</p>
         </div>
       </div>
+      <div class="row">转出账户</div>
       <div class="row">
-        <div style="float:left;">转出账户&nbsp;:&nbsp;</div>
-        <div style="float:left;"><input type="text" v-model="mobile" placeholder="手机号" @blur="getAccount()" class="input"></div> 
-        <div style="float:clear;"></div>
+        <input type="text" v-model="mobile" placeholder="手机号" @blur="getAccount()" class="input">
       </div>
+      <div class="row">转赠数量</div>
       <div class="row">
-          <p style="font-size:9px;">{{ toAccount.address }}</p>
-      </div>
-      <div class="row">
-        <div style="float:left;">转赠数量&nbsp;:&nbsp;</div>
-        <div style="float:left;"><input type="number" v-model.number="count" placeholder="数量" class="input"></div> 
-        <div style="float:clear;"></div>      
-      </div>
+        <input type="number" v-model.number="count" placeholder="数量" class="input"></div>
+     <div class="row">交易密码</div>
      <div class="row">
-        <div style="float:left;">交易密码&nbsp;:&nbsp;</div>
-        <div style="float:left;"><input type="password" v-model="password" placeholder="请输入交易密码"  class="input"></div> 
-        <div style="float:clear;"></div>         
+      <input type="password" v-model="password" placeholder="请输入交易密码"  class="input">
      </div>
-     <div class="row">
+      <div class="row">
         <input type="text" v-model="remarks" placeholder="添加备注 (50字以内)" class="input" ref="wordcount">
-     </div>
-
-      <button class="save" @click="doTransfer()">确认交易</button>
-
-      <div class="row">
       </div>
-      
+
+      <div class="address" v-if="toAccount != ''">
+        <span class="icon-addr">
+          <i :class="'icon iconfont icon-zhuan'"></i>
+        </span>
+        <span class="addrinfor">
+          <p> {{ fromAccount.address }} </p>
+          <p> {{ toAccount.address }} </p>
+        </span>
+      </div>
+      <button v-if="toAccount != ''" class="save" @click="doTransfer()">确认交易</button>
       <footer-tab :index="2"></footer-tab>
   </div>
 </template>

@@ -40,7 +40,7 @@
         minHeight: '',
         infor: '',
         accountCount: -1,
-        account:{
+        account:{ 
           address: ''
         },
         balance:[],
@@ -102,7 +102,7 @@
             console.log(err);
           })
         }
-
+        
       },
       createAccount() {
         this.$router.push({
@@ -130,7 +130,7 @@
       width:100%;
   }
   .icon-zhanghu{
-    font-size:0.5rem;
+    font-size:0.4rem;
     color:rgba(255,255,255,.7);
   }
   .icon-zhuanzeng{
@@ -149,7 +149,7 @@
       color:#fff;
       display:inline-block;
       width:75%;
-      padding:0.3rem 0.2rem 0.2rem;
+      padding:0.3rem 0.2rem 0.2rem; 
   }
   .userinfor p:first-child{
     font-size:0.35rem;
@@ -173,9 +173,11 @@
       color:rgba(255,255,255,.7);
   }
   .createaccount{
-    height:5rem;
-    margin: 3rem auto 0;
-    margin: 3rem auto 0;
+    height:100%;
+
+    margin: 0 auto;
+    margin-top:3.4rem;
+    padding-bottom:0.5rem;
     width: 94%;
     background: #fff;
   }
@@ -206,10 +208,9 @@
   }
   .balance{
       background: #fff;
-      display: flex;
-      height: 10rem;
+      height:100%;
       width:94%;
-      margin:3.4rem auto 2rem;
+      margin:3.4rem auto 1.1rem;
   }
   .balance-ul{
     width:100%;
@@ -262,7 +263,7 @@
       color:#fff;
       display:inline-block;
       width:75%;
-      padding:0.3rem 0.2rem 0.2rem;
+      padding:0.3rem 0.2rem 0.2rem; 
   }
   .userinfor p:first-child{
     font-size:0.4rem;

@@ -1,11 +1,11 @@
 <template>
   <div class="container register-container" :style="'min-height: '+minHeight">
     <div class="search disf">
-      <div class="disf input-box"><i class="icon iconfont icon-sousuo"></i><input type="text" class="sousuo-input" placeholder="请输入要搜索的商品"></div>
-      <span class="cancel-btn">取消</span>
+      <div class="disf input-box" style="display:flex;align-items:middle;"><i class="icon iconfont icon-sousuo" style="font-weight:bolder" @click="searchs"></i><input type="text" class="sousuo-input" placeholder="请输入要搜索的积分" v-model="search"></div>
+      <span class="cancel-btn" @click="cancelSearch">取消</span>
     </div>
     
-    <div class="score-container">
+    <div class="score-container" style="overflow:scroll;margin-bottom:1.1rem">
       <ul class="score-ul">
         <li class="score-li" v-for="item in data">
           <span><img src="../../static/img/score.png" class="icon-score" alt=""></span>
@@ -15,6 +15,7 @@
           <div class="clear"></div>
         </li>
       </ul>
+      <div v-if="data.length > 0" id="getmore" :disabled="isDisable" @click="getmore" style="background:#fff;text-align:center;color:#5b8ae2;padding:0.2rem 0">点击加载更多</div>
     </div>
     <footer-tab :index="1"></footer-tab>
   </div>
@@ -32,8 +33,10 @@
         redirect: '',
         minHeight: '',
         code: '',
-        data:[], 
-        page: 1
+        data:[],
+        search:'', 
+        page: 1,
+        isDisable: false
       }
     },
     mounted() {
@@ -48,13 +51,36 @@
       this.scoreList();
     },
     methods: {
+      searchs(){
+        this.data = [];
+        this.page = 1;
+        this.scoreList();
+      },
+      cancelSearch(){
+        this.data = [];
+        this.page = 1;
+        this.search = '';
+        this.scoreList();
+      },
       scoreList(){
         let _this = this;
-        axios.get(config.score_list+'//'+this.page).then(function (res) {
+        this.$dialog.loading.open('');
+        axios.get(config.score_list+'/'+ this.search +'/'+this.page).then(function (res) {
           if(res.data.errcode == 0){
-            _this.data = res.data.msg;
+            _this.data = _this.data.concat(res.data.msg);
+            if(res.data.msg.length < 10){
+              document.getElementById('getmore').style.display = "none";
+            }else{
+              _this.isDisable = false;
+            }
           }
+          _this.$dialog.loading.close();
         })
+      },
+      getmore(){
+        this.isDisable = true;
+        this.page++;
+        this.scoreList();
       },
       addScore(address){
         let _this = this;
