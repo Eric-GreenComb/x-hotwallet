@@ -3,35 +3,37 @@
       <div class="header">
         <div class="userhead"><img src="../../static/userhead.jpg"></div>
         <div class="userinfor">
-          <p>{{ infor.userID }}</p>
-          <p>{{ infor.name }}</p>
+          <p>{{ infor.userID }}({{ infor.name }})</p>
+          <p style="font-size:9px;">{{ fromAccount.address }}</p>
         </div>
       </div>
-      <div class="row">转出账户</div>
       <div class="row">
-        <input type="text" v-model="mobile" placeholder="手机号" @blur="getAccount()" class="input">
+        <div style="float:left;">转出账户&nbsp;:&nbsp;</div>
+        <div style="float:left;"><input type="text" v-model="mobile" placeholder="手机号" @blur="getAccount()" class="input"></div> 
+        <div style="float:clear;"></div>
       </div>
-      <div class="row">转赠数量</div>
       <div class="row">
-        <input type="number" v-model.number="count" placeholder="数量" class="input"></div>
-     <div class="row">交易密码</div>
+          <p style="font-size:9px;">{{ toAccount.address }}</p>
+      </div>
+      <div class="row">
+        <div style="float:left;">转赠数量&nbsp;:&nbsp;</div>
+        <div style="float:left;"><input type="number" v-model.number="count" placeholder="数量" class="input"></div> 
+        <div style="float:clear;"></div>      
+      </div>
      <div class="row">
-      <input type="password" v-model="password" placeholder="请输入交易密码"  class="input">
+        <div style="float:left;">交易密码&nbsp;:&nbsp;</div>
+        <div style="float:left;"><input type="password" v-model="password" placeholder="请输入交易密码"  class="input"></div> 
+        <div style="float:clear;"></div>         
      </div>
-      <div class="row">
+     <div class="row">
         <input type="text" v-model="remarks" placeholder="添加备注 (50字以内)" class="input" ref="wordcount">
-      </div>
+     </div>
 
-      <div class="address" v-if="toAccount != ''">
-        <span class="icon-addr">
-          <i :class="'icon iconfont icon-zhuan'"></i>
-        </span>
-        <span class="addrinfor">
-          <p> {{ fromAccount.address }} </p>
-          <p> {{ toAccount.address }} </p>
-        </span>
+      <button class="save" @click="doTransfer()">确认交易</button>
+
+      <div class="row">
       </div>
-      <button v-if="toAccount != ''" class="save" @click="doTransfer()">确认交易</button>
+      
       <footer-tab :index="2"></footer-tab>
   </div>
 </template>
@@ -64,7 +66,6 @@
     },
     mounted() {
       this.$dialog.loading.close();
-
       this.minHeight = localStorage.getItem('minHeight');
       if (this.$route.query.redirect) {
         this.redirect = this.$route.query.redirect;
@@ -170,7 +171,6 @@
   .userinfor p:last-child{
     padding:0.2rem 0rem;
   }
-
   .row {
     width: 6.90rem;
     margin:0 auto;
@@ -180,9 +180,7 @@
     background: #fff;
     margin-bottom: 1px;
     font-size: 0.28rem;
-
   }
-
   .address {
     width: 6.90rem;
     margin:0 auto;
@@ -204,12 +202,10 @@
     width: 1.5rem;
     display: inline-block;
   }
-
   .input {
     flex: 1;
     width: 60%;
   }
-
   .save {
     width: 6.90rem;
     height: 0.90rem;
@@ -223,34 +219,28 @@
     display: block;
     border: 0;
   }
-
   input::input-placeholder {
     font-size: 0.26rem;
     color: #a4a4a4;
   }
-
   input::-webkit-input-placeholder {
     font-size: 0.26rem;
     color: #a4a4a4;
   }
-
   input:-ms-input-placeholder {
     font-size: 0.26rem;
     color: #a4a4a4;
   }
-
   input[type="number"]{
     outline-style: none;
     -webkit-appearance: none;
     border: 0;
     font-family: 'PingFang-SC-Regular';
   }
-
   input:-moz-placeholder {
     font-size: 0.26rem;
     color: #a4a4a4;
   }
-
   input::-moz-placeholder {
     font-size: 0.26rem;
     color: #a4a4a4;
