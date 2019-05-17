@@ -1,6 +1,6 @@
 //正式服务器
- let domain='http://123.206.29.15:4100';
- let base = 'http://123.206.29.15:4100/api/v1';
+ let domain='http://47.89.15.157:13500';
+ let base = 'http://47.89.15.157:13500/api/v1';
  let appId='wxdd662c0cfcdd3efb';
 
 /*//测试服务器
